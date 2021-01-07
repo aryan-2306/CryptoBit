@@ -11,7 +11,7 @@ def calcu(a, b):
             asckey =ord(a[j])
             asctext =ord(b[i])
             newasci = asckey*asctext
-            print(chr(newasci),end='')
+            print(chr(newasci%127),end='')
             j =j+1
             newasci =0
     
